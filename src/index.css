@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+.timeline::after{
+content:'';
+position:absolute;
+width:5px;
+height:100%;
+background-color:#1c0632;
+top:0;
+left:50%;
+margin-left:-3px;
+z-index:50;
+border-radius:10px;
+animation: moveline 6s linear forwards;
+/* animation-timeline: view(); */
+}
+
+@keyframes moveline {
+    0%{
+        height:0;
+        
+    }
+    100%{
+        height:100%;
+    }
+}
+
+
+@keyframes bouncecontainer {
+    
+}
+
+.right-arrow{
+    height:0;
+    width:0;
+    position:absolute;
+    border-top:15px solid transparent;
+    border-bottom:15px solid transparent;
+    border-left:15px solid #fff;
+    right:-15px
+}
+
+
+/* cube */
+
+
+.scene {
+    perspective: 800px; /* Depth effect */
+}
+
+.cube {
+    transform-style: preserve-3d;
+    transform: rotateX(20deg) rotateY(20deg);
+    transition: transform 1s ease-in-out;
+}
+
+.cube:hover {
+    transform: rotateX(360deg) rotateY(360deg);
+}
+
+.face {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 150px;
+}
+
+.front  { transform: translateZ(75px); background: red; }
+        .back   { transform: rotateY(180deg) translateZ(75px); background: blue; }
+        .left   { transform: rotateY(-90deg) translateZ(75px); background: green; }
+        .right  { transform: rotateY(90deg) translateZ(75px); background: yellow; }
+        .top    { transform: rotateX(90deg) translateZ(75px); background: cyan; }
+        .bottom { transform: rotateX(-90deg) translateZ(75px); background: purple; }
