@@ -13,14 +13,14 @@ import { LuArrowRight } from "react-icons/lu";
 
 export const Project = () => {
   return (
-       <div className='relative timeline mt-20 w-full mx-auto border border-white'>
+       <div className='relative timeline mt-20 w-full mx-auto'>
 
          <h1 className='text-center text-white relative z-100 text-4xl mb-25 tracking-wide'>Projects</h1>
 
 
 
 
-            <div className='relative  w-full text-white flex max-lg:justify-center xl:pl-49 gap-13 mb-40 border border-white'>
+            <div className='relative  w-full text-white flex max-lg:justify-center xl:pl-49 gap-13 mb-40 '>
 
              <div className='h-[150px] sm:h-[200px] md:h-[250px] lg:h-[300px] xl:p-5 relative z-100'>
                 <img src={ecom} alt="" className='w-full rounded-lg lg:rounded-xl h-full relative z-50 md:w-[500px] lg:w-[440px] xl:w-[470px]'/>
@@ -54,7 +54,7 @@ export const Project = () => {
 
             {/* ---------------------------------------------------------------------------------------- */}
 
-            <div className='relative  w-full text-white flex max-lg:justify-center gap-13 lg:pl-15 xl:pl-70 mb-40 border border-white'>
+            <div className='relative  w-full text-white flex max-lg:justify-center gap-13 lg:pl-15 xl:pl-70 mb-40 '>
 
             <div className='w-full md:w-[380px] xl:w-[400px] my-auto hidden lg:block'>
   <p className='text-lg sm:text-2xl lg:text-xl'>E-commerce</p>
@@ -86,7 +86,7 @@ export const Project = () => {
 
 </div>
 
-<div className='relative  w-full text-white flex max-lg:justify-center xl:pl-49 gap-13 mb-40 border border-white'>
+<div className='relative  w-full text-white flex max-lg:justify-center xl:pl-49 gap-13 mb-40 '>
 
 <div className='h-[150px] sm:h-[200px] md:h-[250px] lg:h-[300px] xl:p-5 relative z-100'>
    <img src={weather} alt="" className='w-full rounded-lg lg:rounded-xl h-full relative z-50 md:w-[500px] lg:w-[440px] xl:w-[470px]'/>
@@ -123,7 +123,7 @@ export const Project = () => {
 <h1 className='text-center text-white text-2xl relative z-100 mb-40'>Landing Pages</h1>
 
 
-<div className='relative  w-full text-white flex max-lg:justify-center gap-13 lg:pl-15 xl:pl-70 mb-40 border border-white'>
+<div className='relative  w-full text-white flex max-lg:justify-center gap-13 lg:pl-15 xl:pl-70 mb-40 '>
 
 <div className='w-full md:w-[380px] xl:w-[400px] my-auto hidden lg:block'>
 <p className='text-lg sm:text-2xl lg:text-xl'>E-commerce</p>
@@ -156,7 +156,7 @@ export const Project = () => {
 </div>
 
 
-<div className='relative  w-full text-white flex max-lg:justify-center xl:pl-49 gap-13 mb-40 border border-white'>
+<div className='relative  w-full text-white flex max-lg:justify-center xl:pl-49 gap-13 mb-40 '>
 
 <div className='h-[150px] sm:h-[200px] md:h-[250px] lg:h-[300px] xl:p-5 relative z-100'>
    <img src={vir} alt="" className='w-full rounded-lg lg:rounded-xl h-full relative z-50 md:w-[500px] lg:w-[440px] xl:w-[470px]'/>
@@ -189,7 +189,7 @@ export const Project = () => {
 </div>
 
 
-<div className='relative  w-full text-white flex max-lg:justify-center gap-13 lg:pl-15 xl:pl-70 mb-40 border border-white'>
+<div className='relative  w-full text-white flex max-lg:justify-center gap-13 lg:pl-15 xl:pl-70 mb-40 '>
 
 <div className='w-full md:w-[380px] xl:w-[400px] my-auto hidden lg:block'>
 <p className='text-lg sm:text-2xl lg:text-xl'>E-commerce</p>

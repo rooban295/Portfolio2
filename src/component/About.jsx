@@ -5,10 +5,10 @@ import arrow from '../assets/Images/Arrow.png'
 import { LiaDownloadSolid } from "react-icons/lia";
 export const About = () => {
   return (
-    <div className='text-white flex flex-col lg:flex-row justify-between gap-40 mt-10 border border-white'>
+    <div className='text-white flex flex-col lg:flex-row justify-between gap-40 mt-10'>
 
         <div className='relative w-full'>
-         <img src={gradent} alt="" className='animate-pulse duration-75 ease-in-out'/>
+         <img src={gradent} alt="" className=''/>
 
          <img className='absolute top-22 left-20 md:left-25' src={profileImg} alt="" />
 
@@ -19,7 +19,7 @@ export const About = () => {
 
         <div className='w-full flex flex-col gap-5 justify-center'>
             <p className=' text-3xl :text-5xl'>I'm a Software Engineer.</p>
-            <p className='text-justify'>I am an aspiring Java Full-Stack Developer.</p>
+            <p className='text-justify text-violet-900'>I am an aspiring Java Full-Stack Developer.</p>
             <a href='' className='flex justify-start p-1'>Download CV  <LiaDownloadSolid className='h-6 w-6 inline-block ml-2 animate-bounce'/></a>
         </div>
 
