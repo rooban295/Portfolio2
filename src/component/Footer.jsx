@@ -31,7 +31,7 @@ export const Footer = () => {
             <div>
               <h2 className="text-xl font-semibold text-violet-600 mb-2">Contact</h2>
               <div className='text-violet-300'>
-              <p>Email: <a href="thisonrooban.j@gmail.com" className="hover:text-blue-400">thisonrooban.j@gmail.com</a></p>
+              <p>Email: <a href="mailto:thisonrooban.j@gmail.com" target='_blank' className="hover:text-blue-400">thisonrooban.j@gmail.com</a></p>
               <p>LinkedIn: <a href="https://www.linkedin.com/in/roobanj/" target="_blank" className="hover:text-blue-400">LinkedIn Profile</a></p>
               <p>GitHub: <a href="https://github.com/rooban295?tab=repositories" target="_blank" className="hover:text-blue-400">GitHub Profile</a></p>
               </div>

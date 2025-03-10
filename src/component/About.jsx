@@ -24,7 +24,7 @@ export const About = () => {
          <a className='absolute top-9 md:top-15 left-[240px] md:left-[410px] xl:left-[360px] text-[17px] md:text-2xl' href="">Hi I am <span className='text-[#7127BA]'>Thison Rooban J</span></a>
         </div>
 
-      <div>
+
         <div className=' flex flex-col gap-5 xl:mt-15 w-full relative z-100 px-2'>
             <p className='text-justify xl:text-3xl text-violet-900'>I am an aspiring Java Full-Stack Developer.</p>
             <div className='flex'>
@@ -32,7 +32,6 @@ export const About = () => {
             <a href="https://www.linkedin.com/in/roobanj/" target='_blank' className='ml-5'>Linkedin<CiLinkedin className='inline-block h-5 w-5 ml-2 animate-bounce'/></a>
             <a href="https://github.com/rooban295?tab=repositories" target='_blank' className='ml-5'>GitHub<FaGithub className='inline-block h-5 w-5 ml-2 animate-bounce'/></a>
             </div>
-        </div>
         </div>
 
 
