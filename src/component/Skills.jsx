@@ -22,8 +22,9 @@ import intellij from '../assets/Images/Default.png'
 
 export const Skills = () => {
   return (
-    <div className='flex justify-center mt-50 w-full relative'>
-        <video className='opacity-80' autoPlay loop muted src={blackhole}></video>
+  <section>
+    <div className='flex justify-center mt-20 xl:mt-50 w-full relative'>
+        <video className='opacity-80 w-full object-center' autoPlay loop muted src={blackhole}></video>
             <FaReact  className='absolute top-10 left-18 h-6 w-6 sm:h-8 sm:w-8 sm:left-40 md:h-10 md:w-10 md:top-10 md:left-15 lg:h-15 lg:w-15 lg:top-15 lg:left-50 xl:top-35 xl:left-100 xl:h-15 xl:w-15 text-blue-400 animate-spin transition duration-1000 ease-in-out'/>
             <FaHtml5 className='absolute top-10 left-28 h-6 w-6 sm:h-8 sm:w-8 sm:left-52 md:h-10 md:w-10 md:top-10 md:left-40 text-red-800 lg:h-15 lg:w-15 lg:top-15 lg:left-75  xl:top-35 xl:left-130 xl:h-15 xl:w-15 animate-bounce'/>
             <IoLogoCss3 className='absolute top-10 left-38 h-6 w-6 sm:h-8 sm:w-8 sm:left-66 md:h-10 md:w-10 md:top-10 md:left-70 text-blue-500 lg:h-15 lg:w-15 lg:top-15 lg:left-100 xl:top-35 xl:left-160 xl:h-15 xl:w-15 animate-bounce'/>
@@ -41,5 +42,7 @@ export const Skills = () => {
             <img src={eclipse}  className='absolute  h-6 w-6 top-30 sm:h-8 sm:w-8 left-48 sm:left-75 md:h-10 md:w-10 md:top-50 md:left-96 text-violet-900 lg:h-15 lg:w-15 lg:top-55 lg:left-115 xl:top-87 xl:left-175 xl:h-15 xl:w-15 animate-bounce delay-1000'/>
             <img src={intellij}  className='absolute h-6 w-6 top-30 sm:h-8 sm:w-8 left-58 md:h-10 md:w-10 md:top-50 md:left-130 sm:left-88 text-violet-900 lg:h-15 lg:w-15 lg:top-55 lg:left-135  xl:top-87 xl:left-210 xl:h-15 xl:w-15 animate-bounce delay-1000'/>
     </div>
+    </section>
+    
   )
 }

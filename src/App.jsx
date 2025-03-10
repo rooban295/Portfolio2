@@ -6,11 +6,11 @@ import { Project } from './component/Project'
 import { Footer } from './component/Footer'
 import { FaReact } from "react-icons/fa";
 
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-[#0a0218]'>
+    <div className='bg-[#080115]'>
     <Nav/>
 
     <div className='px-2 md:px-10'>

@@ -15,7 +15,7 @@ export const Project = () => {
   return (
        <div className='relative timeline mt-20 w-full mx-auto'>
 
-         <h1 className='text-center text-white relative z-100 text-4xl mb-25 tracking-wide'>Projects</h1>
+         <h1 className='text-center text-white relative z-100 text-3xl xl:text-4xl mb-25 tracking-wide'>Projects</h1>
 
 
 
@@ -26,6 +26,7 @@ export const Project = () => {
                 <img src={ecom} alt="" className='w-full rounded-lg lg:rounded-xl h-full relative z-50 md:w-[500px] lg:w-[440px] xl:w-[470px]'/>
                 <div className='lg:hidden'>
                   <h1>E-commerce</h1>
+                  <a href=""></a>
                 </div>
              </div>
 
