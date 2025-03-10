@@ -22,7 +22,7 @@ import intellij from '../assets/Images/Default.png'
 
 export const Skills = () => {
   return (
-  <section>
+  <section id='skills'>
     <div className='flex justify-center mt-20 xl:mt-50 w-full relative'>
         <video className='opacity-80 w-full object-center' autoPlay loop muted src={blackhole}></video>
             <FaReact  className='absolute top-10 left-18 h-6 w-6 sm:h-8 sm:w-8 sm:left-40 md:h-10 md:w-10 md:top-10 md:left-15 lg:h-15 lg:w-15 lg:top-15 lg:left-50 xl:top-35 xl:left-100 xl:h-15 xl:w-15 text-blue-400 animate-spin transition duration-1000 ease-in-out'/>

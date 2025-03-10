@@ -13,7 +13,7 @@ function App() {
     <div className='bg-[#080115]'>
     <Nav/>
 
-    <div className='px-2 md:px-10'>
+    <div className=''>
     <About/>
     </div>
 

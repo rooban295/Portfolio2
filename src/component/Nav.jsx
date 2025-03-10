@@ -23,10 +23,10 @@ export const Nav = () => {
     <div className={`w-full h-[65px] flex items-center justify-center fixed top-0  z-500  ${navScroll?`nav-scroll`:""}`}>
       <nav  className="bg-transparent">
         <ul className=" flex items-center gap-7 sm:gap-14 md:gap-14  p-3 rounded-full backdrop-blur-md text-white ">
-            <li className='cursor-pointer'>About</li>
-            <li>Skills</li>
-            <li>Project</li>
-            <li>Contact</li>
+            <li> <a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li> <a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       </div>
