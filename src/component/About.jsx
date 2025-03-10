@@ -13,6 +13,7 @@ export const About = () => {
   return (
     <div id='about' className='text-white flex flex-col lg:flex-row items-center gap-10 xl:gap-40 relative z-200'>
 
+
         <div className='relative w-full z-200 mt-45 xl:mt-25'>
          <img src={gradent} alt="" className=''/>
 
@@ -23,13 +24,15 @@ export const About = () => {
          <a className='absolute top-9 md:top-15 left-[240px] md:left-[410px] xl:left-[360px] text-[17px] md:text-2xl' href="">Hi I am <span className='text-[#7127BA]'>Thison Rooban J</span></a>
         </div>
 
-        <div className=' flex flex-col gap-5 xl:mt-15 w-full relative z-100'>
+      <div>
+        <div className=' flex flex-col gap-5 xl:mt-15 w-full relative z-100 px-2'>
             <p className='text-justify xl:text-3xl text-violet-900'>I am an aspiring Java Full-Stack Developer.</p>
             <div className='flex'>
-            <a href={resume} target="_blank" className='flex justify-start p-1'>Download CV  <LiaDownloadSolid className='h-6 w-6 inline-block ml-2 animate-bounce'/></a>
+            <a href={resume} target="_blank" className=''>Download CV  <LiaDownloadSolid className='h-5 w-5 inline-block ml-2 animate-bounce'/></a>
             <a href="https://www.linkedin.com/in/roobanj/" target='_blank' className='ml-5'>Linkedin<CiLinkedin className='inline-block h-5 w-5 ml-2 animate-bounce'/></a>
             <a href="https://github.com/rooban295?tab=repositories" target='_blank' className='ml-5'>GitHub<FaGithub className='inline-block h-5 w-5 ml-2 animate-bounce'/></a>
             </div>
+        </div>
         </div>
 
 
