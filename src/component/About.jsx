@@ -2,7 +2,6 @@ import React from 'react'
 import gradent from '../assets/Images/Gradient.png'
 import profileImg from '../assets/Images/image 1.png'
 import arrow from '../assets/Images/Arrow.png'
-import bg from '../assets/Images/bg.png'
 import { LiaDownloadSolid } from "react-icons/lia";
 import blackhole from '../assets/video/black.mp4'
 import resume from '../assets/pdf/2024_BSC(CS)_JAVA_FULLSTACK_THISONROOBAN J.pdf'

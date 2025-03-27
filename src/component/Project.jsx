@@ -138,7 +138,7 @@ efficient employee data management
 <p className='text-lg sm:text-2xl lg:text-xl'>Nike</p>
 <span className='text-violet-700 text-[12px] sm:text-lg md:text-sm'>Dec-2024 - Jan 2025</span>
 <div className='hidden md:block text-justify bg-white/6 p-4 rounded-lg backdrop-saturate-120'>
-<p className='text-[12px] md:text-sm w-full'>Developed a secure, scalable E-commerce website</p>
+<p className='text-[12px] md:text-sm w-full'>Developed a dynamic and visually engaging Nike landing page, ensuring a seamless user experience with responsive design and optimized performance.</p>
 </div>
 <a href='https://nike-landing-page-roan.vercel.app/' target="_blank" className='p-1 mt-2 block w-fit hover:text-violet-800 text-[12px] sm:text-md md:text-lg lg:text-sm'>View Project <LuArrowRight className='inline-block '/></a>
 </div>
@@ -195,7 +195,7 @@ efficient employee data management
   <p className='text-lg sm:text-2xl lg:text-xl'>Virtual</p>
      <span className='text-violet-700 text-[12px] sm:text-lg md:text-sm'>Dec-2024 - Jan 2025</span>
      <div className='hidden md:block text-justify bg-white/6 p-4 rounded-lg backdrop-saturate-120'>
-         <p className='text-[12px] md:text-sm w-full'>Developed a secure, scalable E-commerce website</p>
+         <p className='text-[12px] md:text-sm w-full'>Developed an interactive and visually compelling Virtual landing page, ensuring a seamless user experience with responsive design and optimized performance.</p>
      </div>
     <a href='https://virtual-sigma-five.vercel.app/' target="_blank" className='p-1 mt-2 block w-fit hover:text-violet-800 text-[12px] sm:text-md md:text-lg lg:text-sm'>View Project <LuArrowRight className='inline-block '/></a>
   </div>
@@ -210,7 +210,7 @@ efficient employee data management
 <p className='text-lg sm:text-2xl lg:text-xl'>Edusity</p>
 <span className='text-violet-700 text-[12px] sm:text-lg md:text-sm'>Dec-2024 - Jan 2025</span>
 <div className='hidden md:block text-justify bg-white/6 p-4 rounded-lg backdrop-saturate-120'>
-<p className='text-[12px] md:text-sm w-full'>Developed a secure, scalable E-commerce website</p>
+<p className='text-[12px] md:text-sm w-full'>Developed an engaging and user-friendly Edusity landing page, optimizing performance and responsiveness to enhance the online learning experience.</p>
 </div>
 <a href='https://edusity-xi-nine.vercel.app/' target="_blank" className='p-1 mt-2 block w-fit hover:text-violet-800 text-[12px] sm:text-md md:text-lg lg:text-sm'>View Project <LuArrowRight className='inline-block '/></a>
 </div>
